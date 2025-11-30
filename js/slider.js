@@ -55,3 +55,8 @@ document.addEventListener('DOMContentLoaded', () => {
     iniciarGaleria('gallery-2'); 
     iniciarGaleria('gallery-3'); 
 });
+
+document.getElementById("menu-btn").addEventListener("click", () => {
+    const menu = document.getElementById("mobile-menu");
+    menu.classList.toggle("hidden");
+});
